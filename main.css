@@ -1,0 +1,16 @@
+#wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#size {
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+}
+
+.volumeName,
+.volumePrice {
+	width: 45%;
+}
